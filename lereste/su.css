@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    height: 50px;
+    width: 50px;
+    background: url(../image/GooNan.png) 50%;
+}
+audio {
+    width: 100px;
+    background-color: brown;
+    opacity: .5;
+}
