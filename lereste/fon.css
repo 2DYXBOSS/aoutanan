@@ -115,7 +115,9 @@ body {
         font-size: 0.7rem;
     }
 }
-@media (min-width:1200px) {
+
+
+@media (min-width:1200px) and (max-width:2000px){
     body {
         width: 100%;
         height: auto;
@@ -173,6 +175,9 @@ body {
         border-bottom-right-radius: 10px;
         display: flex;
     }
+    .tet p {
+        font-size: 1rem;
+    }
     .tet {
         width: 40%;
         height: 100%;
@@ -196,6 +201,10 @@ body {
         padding: 20px;
         margin-left: 20px;
         color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .mpim {
         height: 100%;
@@ -217,14 +226,185 @@ body {
         border-bottom-right-radius: 10px;
         display: flex;
         justify-content: end;
-        align-items: end;
+        align-items: center;
+        background-color: black;
     }
     .mpim2 {
         height: 60%;
-        width: 100%;
+        width: 95%;
         color: white;
-        margin-bottom: 20px;
+        margin-top: 15px;
         padding-left: 10px;
+        background-color: rgba(255, 255, 255, 0.075);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    
+    .a{
+    
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        
+    }
+    audio {
+        width: 87%;
+        margin-left: 10px;
+
+    }
+    
+    .mpim2 h1 {
+        font-weight: bold;
+        font-size: 3rem;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+    .mpim2 h5 {
+        font-weight: bold;
+        font-size: 2rem;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    .mpim2 p {
+        padding-left: 30px;
+        font-size: 1rem;
+        color: gray;
+        
+    }
+}
+
+
+
+@media (min-width:2000px) {
+    body {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    a {
+        width: 100%;
+    }
+    .phu {
+        height: 300px;
+        width: 100%;
+        background: url(../image/BLA.jpg)  50% no-repeat;
+        background-size: 1000px;
+        filter: invert();
+    }
+    header {
+        width: 100%;
+        height: 5000px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .dex2 {
+        width: 90%;
+        background-color: black;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 10px;
+        
+    }
+    .mp {
+        height: 800px;
+        width: 98%;
+        background-color: rgba(255, 255, 255, 0.075);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 20px;
+        display: flex;
+    }
+    .lll {
+        height: 100%;
+        width: 60%;
+        margin-left: 20px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+    }
+    .tet p {
+        font-size: 2rem;
+    }
+    .tet {
+        width: 40%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 20px;
+        color: white;
+        overflow: hidden;
+    }
+    .mmm {
+        width: 60%;
+        height: 100%;
+        background-color: black;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 20px;
+        margin-left: 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mpim {
+        height: 100%;
+        width: 40%;
+        background: url(../image/pjp.jpg) 50% no-repeat;
+        background-size: cover;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .mpim3 {
+        height: 40%;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: 20px;
+        background-color: black;
+    }
+    .mpim2 {
+        height: 60%;
+        width: 95%;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 40px;
         background-color: rgba(255, 255, 255, 0.075);
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -238,6 +418,9 @@ body {
         width: 50px;
         height: 100px;
         width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -245,22 +428,29 @@ body {
         
     }
     audio {
-        width: 90%;
+        width: 87%;
         margin-left: 10px;
 
     }
     
     .mpim2 h1 {
         font-weight: bold;
-        font-size: 3rem;
-        padding-top: 10px;
+        font-size: 4.5rem;
+        padding-left: 50px;
     }
     .mpim2 h5 {
         font-weight: bold;
-        font-size: 2.2rem;
+        font-size: 3rem;
+        padding-top: 30px;
+        padding-left: 50px;
     }
     .mpim2 p {
-        font-size: 1.5rem;
+        padding-left: 50px;
+        font-size: 1.8rem;
         color: gray;
+        
     }
 }
+
+
+

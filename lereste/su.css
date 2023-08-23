@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: white;
   }
   body {
       width: 100%;
@@ -12,7 +11,10 @@
   }
   @media (min-width:10px) and (max-width:800px){
       
-      
+    a {
+        text-decoration: none;
+        color: white;
+    }
       
     header {
         width: 100%;
@@ -36,35 +38,134 @@
     }
     .mp {
         height: 450px;
-        width: 300px;
+        width: 340px;
         background-color: black;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
         padding: 20px;
     }
     .hea {
-        height: 20px;
-        width: 100%;
+        height: 7%;
+        width: 25%;
+        background: url(../image/BLA.jpg) 50% no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: 100px;
+        filter: invert();
     }
     .hea2 {
         height: 50px;
         width: 100%;
-        background-color: aqua;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .hea2 h2{
+        color: white;
+        font-size: 0.7rem;
+        font-weight: bold;
     }
     .hea3 {
+        margin-top: 20px;
         height: 10px;
         width: 100%;
-        background-color: rgb(119, 0, 255);
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        background-color: black;
+    }
+
+    .hea3 p {
+        margin-bottom: 15px;
+        font-size: 0.8rem;
+        color: white;
+        font-weight: bold;
+        padding-right: 20px;
     }
     .hea4 {
+        height: 30px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: end;
+        padding-right: 20px;
+        
+    }
+    .hea4 input {
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: rgba(49, 48, 48, 0.199);
+        width: 90%;
+        color: white;
+        padding-left: 10px;
+    }
+    .hea5 {
+        margin-top: 20px;
+        height: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    .hea5 p {
+        font-size: 0.7rem;
+        padding-right: 20px;
+    }
+    .hea6{
+        margin-top: 20px;
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: black;
+        color: white;
+    }
+    .hea6 h1 {
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+
+    .hea7{
         height: 50px;
         width: 100%;
-        background-color: rgb(255, 0, 13);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    .hea7 li {
+        font-size: 0.8rem;
+        list-style-type: none;
+        
+    }
+    .hea7 li a{
+        padding: 10px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 20px;
+        
+    }
+    .hea7 li a:hover{
+        padding: 10px;
+        background-color: rgba(102, 100, 100, 0.075);
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        color: white;
+        font-weight: bolder;
+        font-size: 1rem;
+        
     }
     
-  
 }
   
   @media (min-width:800px) and (max-width:2000px){
@@ -95,10 +196,10 @@
           height: 470px;
           width: 400px;
           background-color: black;
-          border-top-left-radius: 20px;
-          border-bottom-left-radius: 20px;
-          border-top-right-radius: 20px;
-          border-bottom-right-radius: 20px;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
           padding: 20px;
       }
       

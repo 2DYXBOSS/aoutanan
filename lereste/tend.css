@@ -31,7 +31,7 @@ li {
     .heade1 {
         height: 100px;
         width: 100%;
-        background-color: rgb(161, 29, 29);
+        background-color: black;
         display: flex;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -61,11 +61,11 @@ li {
     .ser input{
         width: 70%;
         background-color: rgba(123, 129, 124, 0.336);
-        height: 30%;
+        height: 50%;
         display: flex;
         align-items: center;
         border: none;
-        border-radius: 10px;
+        border-radius: 40px;
         padding-left: 10px;
     }
     .profil {
@@ -75,6 +75,9 @@ li {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .profil img{
+        height: 70px;
     }
     .heade2 {
         height: 500px;
@@ -101,7 +104,7 @@ li {
         margin-top: 120px;
     }
     .headee a{
-        height: 150px;
+        height: 400px;
         width: 100%;
         margin-top: 30px;
         margin-bottom: 10px;
@@ -109,43 +112,83 @@ li {
     
     }
     .heade2-2 {
-        height: 150px;
+        height: 600px;
         background-color: black;
         display: flex;
 
     }
     .heade2-2 a{
-        height: 150px;
+        height: 400px;
         width: 100%;
-        
         margin-top: 30px;
         margin-bottom: 10px;
         background-color: black;
     
     }
+    
     .carre1 {
         width: 90%;
         height: 100%;
         background: url(../image/didi36.png) 50% no-repeat;
         background-size: cover;
-        border-radius: 5px;
+        border-radius: 20px;
+        margin-bottom: 10px;
     }
-    .carre2 {
+    .carre3 {
+        width: 90%;
+        height: 100%;
+        background: url(../image/plm.jpg) 50% no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .carre4 {
+        width: 90%;
+        height: 100%;
+        background: url(../image/iosi.jpg) 50% no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .carre6 {
+        width: 90%;
+        height: 100%;
+        background: url(../image/dai.jpg) 50% no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .carre5 {
         width: 90%;
         height: 70%;
         background-color: rgba(255, 255, 255, 0.034);
         padding-left: 10px;
         padding-top: 10px;
+        margin-bottom: 10px;
         color: white;
-        border-radius: 5px;
+        border-radius: 20px;
+        background: url(../image/iosi.jpg) 50% no-repeat;
+        background-size: cover;
 
     }
+    .carre2  h6{
+        font-size: 2rem;
+        color: white;
+    }
     .carre2  h5{
-        font-size: 1.5rem;
+        font-size: 3.5rem;
+        color: white;
     }
     .carre2  p{
-        font-size: 0.5rem;
-        color: rgb(192, 182, 182);
+        font-size: 1.3rem;
+        color: rgb(134, 129, 129);
+    }
+    .carre2 {
+        height: 250px;
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0.068);
+        border-radius: 20px;
+        padding: 20px 40px;
     }
     .carre {
         /* height: 100%;
