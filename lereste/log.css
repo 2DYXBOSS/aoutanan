@@ -788,6 +788,11 @@ a {
     }
 
     @keyframes ads {
+        0% {
+            background: url(../image/fsd.jpg) 50% no-repeat;
+            background-size: cover;
+            /* transform: translateX(-600px); */
+        }
         10% {
             background: url(../image/tsr.jpg) 50% no-repeat;
             background-size: cover;
