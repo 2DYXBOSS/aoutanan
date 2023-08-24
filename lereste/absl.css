@@ -1,0 +1,407 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+@media (max-width :1000px) {
+    body {
+        background-color: black;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1000px;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .hy22  {
+        display: none;
+    }
+    header {
+        
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .ded {
+        width: 95%;
+        height: 98%;
+        background-color: black;
+    }
+    
+    
+   .pl {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+   }
+   .pl1 {
+    height: 50px;
+    width: 25%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .pl1 a{
+    height: 50px;
+    width: 25%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .pl3 img{
+    background-color: white;
+   }
+   .pl2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 60%;
+    color: white;
+    background-color: black;
+   }
+   .pl2 input{
+    background-color: rgba(71, 66, 66, 0.89);
+    border-radius: 10px ;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    height: 20px;
+    width: 80%;
+    
+    
+    
+   }
+   .pl3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 15%;
+    background-color: black;
+   }
+
+   .hy1 {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding-left: 50px;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+   }
+   .hym {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    font-size: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+   }
+   .hy2 {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .hy21 {
+    width: 80%;
+    height: 200px;
+    background: url(../image/fsd.jpg) 50% no-repeat;
+    border-radius: 20px;
+    background-size: cover;
+   }
+   
+   .hy {
+    width: 100%;
+    height: 900px;
+    background-color:  black;
+   }
+
+   .tre {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 30px;
+   }
+   .tre1 {
+    height: 70px;
+    width: 15%;
+    background-color: rgba(44, 42, 42, 0.096);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    
+   }
+
+   .tre1 h1 {
+    background-color: rgba(44, 42, 42, 0.096)
+   }
+   .tre2 {
+    
+    height: 70px;
+    width: 90%;
+    background-color: rgba(44, 42, 42, 0.096);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 5px;
+    
+   }
+   .tre2 h2 {
+    font-size: 1rem;
+    background-color: rgba(44, 42, 42, 0);;
+   }
+   .tre2 h4 {
+    font-size: 0.5rem;
+    background-color: rgba(44, 42, 42, 0);
+   }
+   .tre2 p {
+    background-color: rgba(44, 42, 42, 0);
+    font-size: 0.4rem;
+   }
+   
+   
+   
+}
+@media (min-width :1000px) {
+    body {
+        background-color: black;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1500px;
+        font-family: 'Poppins', sans-serif;
+    }
+    header {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .ded {
+        width: 95%;
+        height: 98%;
+        background-color: black;
+    }
+    
+    
+   .pl {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+   }
+   .pl1 {
+    height: 100px;
+    width: 25%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .pl1 a{
+    height: 100px;
+    width: 25%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .pl3 img{
+    background-color: white;
+   }
+   .pl2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 60%;
+    color: white;
+    background-color: black;
+   }
+   .pl2 input{
+    background-color: rgba(71, 66, 66, 0.89);
+    border-radius: 40px ;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    height: 50px;
+    width: 80%;
+    
+    
+    
+   }
+   .pl3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 15%;
+    background-color: black;
+   }
+
+   .hy1 {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding-left: 50px;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+   }
+
+   .hy1 h3 {
+    font-size: 2rem;
+   }
+   .hym {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px;
+    margin-left: 100px;
+   }
+   .hy2 {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .hy21 {
+    width: 40%;
+    height: 400px;
+    background: url(../image/fsd.jpg) 50% no-repeat;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-size: cover;
+    margin-top: 20px;
+    
+   }
+   .hy22 {
+    overflow: hidden;
+    width: 40%;
+    height: 400px;
+    background-color: rgba(37, 35, 35, 0.199);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-size: cover;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   }
+   .hy22 p {
+    font-size: 1.3rem;
+    background-color: rgba(37, 35, 35, 0);
+   }
+   
+   .hy {
+    width: 100%;
+    height: 900px;
+    background-color:  black;
+   }
+
+   .tre {
+    height: 150px;
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(44, 42, 42, 0.096);
+    border-radius: 20px;
+    margin-bottom: 30px;
+   }
+   .tre1 {
+    height: 150px;
+    width: 15%;
+    background-color: rgba(44, 42, 42, 0.096);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    
+   }
+
+   .tre1 h1 {
+    background-color: rgba(44, 42, 42, 0.096) ;
+    font-size: 4rem;
+   }
+   .tre2 {
+    
+    height: 70px;
+    width: 90%;
+    background-color: rgba(44, 42, 42, 0);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 5px;
+    
+   }
+   .tre2 h2 {
+    font-size: 2rem;
+    background-color: rgba(44, 42, 42, 0);;
+   }
+   .tre2 h4 {
+    font-size: 1.5rem;
+    background-color: rgba(44, 42, 42, 0);
+   }
+   .tre2 p {
+    background-color: rgba(44, 42, 42, 0);
+    font-size: 1rem;
+   }
+   
+   
+   
+}
