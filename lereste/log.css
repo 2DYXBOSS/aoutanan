@@ -541,7 +541,7 @@ a {
         background-color: black;
     }
     .care1 {
-        background: url(../image/plm.jpg) 50% no-repeat;
+        background: url(../image/sesrh.jpg) 50% no-repeat;
         background-size: cover;
         border-radius: 100%;
         margin-right: 7px;
@@ -551,7 +551,7 @@ a {
         background-color: black;
     }
     .care2 {
-        background: url(../image/didi36.png) 50% no-repeat;
+        background: url(../image/mol.jpg) 50% no-repeat;
         background-size: cover;
         border-radius: 100%;
         margin-right: 7px;
@@ -561,7 +561,7 @@ a {
         background-color: black;
     }
     .care3 {
-        background: url(../image/suspect.jpeg) 50% no-repeat;
+        background: url(../image/didi36.png) 50% no-repeat;
         background-size: cover;
         border-radius: 100%;
         margin-right: 7px;
@@ -571,7 +571,7 @@ a {
         background-color: black;
     }
     .care4 {
-        background: url(../image/fsf.png) 50% no-repeat;
+        background: url(../image/sesrh.jpg) 50% no-repeat;
         background-size: cover;
         border-radius: 100%;
         margin-right: 7px;
@@ -592,13 +592,27 @@ a {
         background-color: black;
         display: flex;
         align-items: center;
+        overflow: hidden;
     }
     .troi1 {
         height: 100%;
         width: 60%;
         background-color: black;
-        background: url(../image/pja.jpg) 50% no-repeat;
+        background: url(../image/plm.jpg) 50% no-repeat;
         background-size: cover;
+        animation: troian 2s ease;
+    }
+
+    @keyframes troian {
+        0% {
+            transform: translateX(-300px);
+            opacity: 0;
+        }
+       
+        80% {
+            transform: translateX(-10px);
+            opacity: 0;
+        }
     }
     .troi2 {
         height: 90%;
@@ -609,8 +623,8 @@ a {
     .troi3 {
         height: 80%;
         width: 15%;
-        
-        background: url(../image/plm.jpg) 50% no-repeat;
+        border-right: 2px solid white;
+        background: url(../image/mol.jpg) 50% no-repeat;
         background-size: cover;
     }
     .pho2 {
