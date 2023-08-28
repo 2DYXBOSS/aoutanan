@@ -928,6 +928,42 @@ a {
         width: 80px;
         background-color: black;
     }
+    .car1 {
+        background: url(../image/sesrh.jpg) 50% no-repeat;
+        background-size: cover;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        height: 80px;
+        width: 80px;
+        background-color: black;
+    }
+    .car2 {
+        background: url(../image/mol.jpg) 50% no-repeat;
+        background-size: cover;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        height: 80px;
+        width: 80px;
+        background-color: black;
+    }
+    .car3 {
+        background: url(../image/didi36.png) 50% no-repeat;
+        background-size: cover;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        height: 80px;
+        width: 80px;
+        background-color: black;
+    }
+    .car4 {
+        background: url(../image/sesrh.jpg) 50% no-repeat;
+        background-size: cover;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        height: 80px;
+        width: 80px;
+        background-color: black;
+    }
     
     .didib2 {
         height: 100%;
