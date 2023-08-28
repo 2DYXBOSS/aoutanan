@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 a {
     text-decoration: none;
@@ -10,7 +11,7 @@ li {
     list-style-type: none;
 }
 
-@media (min-width: 2000px){
+@media (min-width: 2700px){
     body {
         width: 100%;
         height: 800px;
@@ -29,7 +30,7 @@ li {
         background-color: black;
     }
     .heade1 {
-        height: 100px;
+        height: 200px;
         width: 100%;
         background-color: black;
         display: flex;
@@ -44,9 +45,10 @@ li {
         height: 100%;
     }
     .logo li a{
-        padding-right: 150px;
-        padding-bottom: 30px;
+        padding-right: 600px;
+        padding-bottom: 200px;
         margin: 40px;
+       
         
     }
     .ser {
@@ -66,8 +68,8 @@ li {
         display: flex;
         align-items: center;
         border: none;
-        border-radius: 40px;
-        padding-left: 10px;
+        border-radius: 60px;
+        padding-left: 50px;
         
     }
     .profil {
@@ -96,11 +98,11 @@ li {
         color: white;
     }
     .heade2-1 h2{
-        font-size: 0.8rem;
+        font-size: 2rem;
     }
     .headee {
         visibility: visible;
-        height: 150px;
+        height: 650px;
         background-color: black;
         display: flex;
         margin-top: 120px;
@@ -120,6 +122,35 @@ li {
 
     }
     .heade2-2 a{
+        height: 400px;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        background-color: black;
+    
+    }
+    .headee2 {
+        visibility: visible;
+        height: 650px;
+        background-color: black;
+        display: flex;
+        margin-top: 120px;
+    }
+    .headee2 a{
+        height: 400px;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        background-color: black;
+    
+    }
+    .heade2-22 {
+        height: 600px;
+        background-color: black;
+        display: flex;
+        margin-top: 80px;
+    }
+    .heade2-22 a{
         height: 400px;
         width: 100%;
         margin-top: 30px;
@@ -163,7 +194,7 @@ li {
     .carre5 {
         width: 90%;
         height: 70%;
-        background-color: rgba(255, 255, 255, 0.034);
+        background-color: rgba(255, 255, 255, 0.205);
         padding-left: 10px;
         padding-top: 10px;
         margin-bottom: 10px;
@@ -188,7 +219,7 @@ li {
     .carre2 {
         height: 250px;
         width: 90%;
-        background-color: rgba(0, 0, 0, 0.068);
+        background-color: rgba(29, 28, 28, 0.274);
         border-radius: 20px;
         padding: 20px 40px;
     }
@@ -209,7 +240,7 @@ li {
 
 
 
-@media (min-width: 1030px) and (max-width: 2000px){
+@media (min-width: 1030px) and (max-width: 2700px){
     body {
         width: 100%;
         height: 800px;
@@ -290,6 +321,21 @@ li {
     .heade2-1 h2{
         font-size: 0.8rem;
     }
+    .headee2 {
+        visibility: visible;
+        height: 150px;
+        background-color: black;
+        display: flex;
+        margin-top: 120px;
+    }
+    .headee2 a{
+        height: 150px;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        background-color: black;
+    
+    }
     .headee {
         visibility: visible;
         height: 150px;
@@ -300,6 +346,22 @@ li {
     .headee a{
         height: 150px;
         width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        background-color: black;
+    
+    }
+    .heade2-22 {
+        height: 150px;
+        background-color: black;
+        display: flex;
+        margin-top: 130px;
+
+    }
+    .heade2-22 a{
+        height: 150px;
+        width: 100%;
+        
         margin-top: 30px;
         margin-bottom: 10px;
         background-color: black;
@@ -473,11 +535,23 @@ li {
         background-color: black;
         margin-top: 10px;
     }
+    .headee2{
+        height: auto;
+        background-color: black;
+        margin-top: 10px;
+        display: none;
+    }
     .heade2-2 {
         height: auto;
         background-color: black;
         margin-top: 30px;
 
+    }
+    .heade2-22 {
+        height: auto;
+        background-color: black;
+        margin-top: 30px;
+        display: none;
     }
     .headee a{
         height: 80px;
@@ -489,10 +563,50 @@ li {
         margin-bottom: 10px;
     
     }
+    .headee2 a{
+        height: 80px;
+        width: 100%;
+        display: none;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: black;
+        margin-bottom: 10px;
+    
+    }
+    .headee2 a .carre2{
+        height: 80px;
+        width: 100%;
+        display: none;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: black;
+        margin-bottom: 10px;
+    
+    }
     .heade2-2 a{
         height: 80px;
         width: 100%;
         display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: black;
+        margin-bottom: 10px;
+    
+    }
+    .heade2-22 a{
+        height: 80px;
+        width: 100%;
+        display: none;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: black;
+        margin-bottom: 10px;
+    
+    }
+    .heade2-22 a .carre2{
+        height: 80px;
+        width: 100%;
+        display: none;
         justify-content: flex-start;
         align-items: center;
         background-color: black;
@@ -655,6 +769,12 @@ li {
         background-color: black;
         margin-top: 600px;
     }
+    .headee2 {
+        height: 150px;
+        background-color: black;
+        margin-top: 600px;
+        display: none;
+    }
     .headee a{
         height: 110px;
         width: 100%;
@@ -668,6 +788,12 @@ li {
         height: 150px;
         background-color: black;
         margin-top: 20px;
+    }
+    .heade2-22 {
+        height: 150px;
+        background-color: black;
+        margin-top: 20px;
+        display: none;
     }
     .heade2-2 a{
         height: 110px;

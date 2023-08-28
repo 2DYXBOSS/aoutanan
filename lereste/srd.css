@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
     font-family: 'Poppins', sans-serif;
   }
   body {
@@ -117,7 +118,7 @@
     }
     .hea5 p {
         font-size: 0.7rem;
-        padding-right: 20px;
+        padding-right: 30px;
     }
     .hea5 p:hover{
         font-size: 0.7rem;
@@ -127,17 +128,19 @@
     }
     .hea6{
         margin-top: 20px;
-        height: 70px;
+        height: 30px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: end;
         background-color: black;
         color: white;
+        
     }
     .hea6 h1 {
         font-size: 1rem;
         padding-bottom: 10px;
+        
     }
 
     .hea7{
@@ -296,7 +299,7 @@
     }
     .hea6{
         margin-top: 20px;
-        height: 200px;
+        height: 100px;
         width: 100%;
         display: flex;
         justify-content: center;

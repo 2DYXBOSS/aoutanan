@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 .bb {
@@ -222,6 +223,7 @@
         width: 1%;
         background-color: white;
         margin-left: 2px;
+        border-radius: 1.5px;
         animation: name5 2s infinite;
     }
     @keyframes name5 {
