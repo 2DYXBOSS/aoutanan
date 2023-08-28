@@ -60,6 +60,7 @@ a {
         background-color: white;
         display: flex;
         justify-content: center;
+        position: fixed;
     }
     .logo {
         height: 30%;
@@ -143,6 +144,7 @@ a {
         align-items: end;
         padding-left: 50px;
         margin-bottom: 100px;
+
     }
     input {
         height: 70px;
@@ -160,6 +162,7 @@ a {
         height: 500px;
         width: 100%;
         background-color: black;
+        
     }
     .pre {
         height: 300px;
@@ -167,6 +170,7 @@ a {
         background-color: black;
         display: flex;
         margin-bottom: 50px;
+        
     }
     .preu {
         height: 300px;
@@ -308,11 +312,13 @@ a {
         width: 100%;
         background-color: black;
         display: flex;
+        padding-left: 300px;
     }
     .loppo1 {
         height: 100%;
         width: 50%;
         background-color: black;
+        padding-left: 300px;
     }
     .loppo2 {
         height: 100%;
@@ -428,6 +434,7 @@ a {
         height: 1500px;
         width: 350px;
         background-color: white;
+        position: fixed;
 
     }
     .header a {
@@ -478,9 +485,10 @@ a {
     }
     .continet {
         height: 1500px;
-        width: 90%;
+        width: 100%;
         background-color: black;
         display: flex;
+        padding-left: 350px;
     }
     .continet1 {
         height: 1500px;
@@ -618,6 +626,7 @@ a {
         width: 40%;
         background-color: black;
         padding: 50px;
+        
     }
     .req1 {
         height: 300px;
@@ -727,9 +736,10 @@ a {
         background-color: white;
         display: flex;
         justify-content: center;
+        position: fixed;
     }
     .logo {
-        height: 60%;
+        height: 70%;
         width: 90%;
         margin-top: 50px;
         background-color: white;
@@ -802,6 +812,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-left: 250px;
     }
     .vrai {
         background-color: black;
@@ -813,9 +824,11 @@ a {
         height: 100%;
         width: 50%;
         background-color: black;
+        
     }
     .didib h2{
         padding-bottom: 10px;
+        
         
     }
     .rech input{
@@ -920,6 +933,7 @@ a {
         height: 100%;
         width: 50%;
         background-color: black;
+        padding-left: 50px;
     }
     .pho1 {
         height: 250px;
