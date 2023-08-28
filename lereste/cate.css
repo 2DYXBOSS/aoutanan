@@ -154,3 +154,67 @@ a {
     }
     
 }
+@media (max-width:900px) {
+    header {
+        display: none;
+    }
+    main {
+        height: 1000px;
+        width: 100%;
+    }
+    .hers {
+        height: 150px;
+        width: 100%;
+        background: url(../image/BLA.jpg) 50% no-repeat;
+        background-size: cover;
+        filter: invert();
+    }
+    .jsuj {
+        width: 200px;
+        height: 200px;
+        background: url(../image/mol.jpg) 50% no-repeat;
+        background-size: cover;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .jsuj1 {
+        width: 200px;
+        height: 200px;
+        background: url(../image/sesrh.jpg) 50% no-repeat;
+        background-size: cover;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .jsuj2 {
+        width: 200px;
+        height: 200px;
+        background: url(../image/tsr.jpg) 50% no-repeat;
+        background-size: cover;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .jsuj3 {
+        width: 200px;
+        height: 200px;
+        background: url(../image/fsd.jpg) 50% no-repeat;
+        background-size: cover;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .pm {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pm input{
+        height: 20px;
+        width: 80%;
+        background-color: rgba(128, 128, 128, 0.158);
+        border: none;
+        border-radius: 100px;
+    }
+}
+
+
