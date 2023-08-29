@@ -154,55 +154,108 @@ a {
     }
     
 }
-@media (max-width:900px) {
+@media (max-width:600px) {
+    .lop {
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        padding-top: 10px;
+        bottom: 0;
+        visibility: visible;
+        position: fixed;
+        color: white;
+    }
+    .lop nav ul{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+    }
+    .lop nav ul li a{
+        color: white;
+        font-size: 0.7rem;
+        
+    }
+    .lop nav ul li img{
+        background-color: white;
+        
+    }
+    .lop nav ul li {
+        padding-bottom: 10px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+    }
     header {
         display: none;
     }
     main {
-        height: 1000px;
+        height: 1500px;
         width: 100%;
+        padding: 30px;
+        
+    }
+    main h1 {
+        background-color: transparent;
     }
     .hers {
-        height: 150px;
+        height: 70px;
         width: 100%;
         background: url(../image/BLA.jpg) 50% no-repeat;
         background-size: cover;
         filter: invert();
     }
     .jsuj {
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 300px;
         background: url(../image/mol.jpg) 50% no-repeat;
         background-size: cover;
-        margin-bottom: 20px;
-        margin-left: 20px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        
     }
     .jsuj1 {
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 300px;
         background: url(../image/sesrh.jpg) 50% no-repeat;
         background-size: cover;
-        margin-bottom: 20px;
-        margin-left: 20px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
     }
     .jsuj2 {
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 300px;
         background: url(../image/tsr.jpg) 50% no-repeat;
         background-size: cover;
-        margin-bottom: 20px;
-        margin-left: 20px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
     }
     .jsuj3 {
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 300px;
         background: url(../image/fsd.jpg) 50% no-repeat;
         background-size: cover;
-        margin-bottom: 20px;
-        margin-left: 20px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
     }
     .pm {
-        height: 100px;
+        height: 50px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -214,6 +267,40 @@ a {
         background-color: rgba(128, 128, 128, 0.158);
         border: none;
         border-radius: 100px;
+    }
+    .pm2 {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        font-weight: bold;
+    }
+   
+    
+    .pmi6 {
+        height: 100px;
+        background-color: black;
+        border-radius: 20px;
+        margin-bottom: 55px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        padding-top: 20px;
+    }
+    .pmi6 p{
+        height: 100px;
+        background-color: transparent;
+        border-radius: 20px;
+        margin-bottom: 25px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1.2rem;
+
     }
 }
 
