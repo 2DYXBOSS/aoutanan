@@ -1,0 +1,19 @@
+#pp{
+    display: none;
+}
+.gg {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+}
+.papa{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    visibility: hidden;
+    opacity: 1;
+}
+#pp:checked ~ .papa{
+    visibility: visible;
+    opacity: 1;
+}
