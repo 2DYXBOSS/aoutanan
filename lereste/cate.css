@@ -4,12 +4,14 @@
     padding: 0;
     background-color: black;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 a {
     text-decoration: none;
 }
 @media (min-width:800px)  {
+    
     .lop {
         display: none;
     }
@@ -228,10 +230,10 @@ a {
 
 
 @media (max-width:800px) {
+    
     body {
         background-color: black;
         width: 100%;
-        overflow-x: hidden;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -248,15 +250,17 @@ a {
     }
     .lop nav ul{
         height: 100%;
-        width: 100%;
+        width: 95%;
         display: flex;
         align-items: center;
         justify-content: space-around;
+        background-color: black;
         color: white;
     }
     .lop nav ul li a{
         color: white;
         font-size: 0.7rem;
+        background-color: black;
         
     }
     .lop nav ul li img{
@@ -279,6 +283,7 @@ a {
         height: 1500px;
         width: 90%;
         padding: 40px;
+        background-color: black;
         
     }
     main h1 {
@@ -296,7 +301,7 @@ a {
    
     .lqk {
         height: 100px;
-        width: 500px;
+        width: 100%;
         background-color: white;
         background-size: cover;
         overflow: hidden;
@@ -363,7 +368,7 @@ a {
     .pm input{
         height: 30px;
         width: 80%;
-        background-color: rgba(128, 128, 128, 0.158);
+        background-color: rgba(179, 179, 179, 0.301);
         border: none;
         border-radius: 100px;
     }
@@ -384,6 +389,7 @@ a {
     .pmi6 {
         height: 100px;
         background-color: black;
+        width: 80%;
         border-radius: 20px;
         margin-bottom: 10px;
         color: white;
