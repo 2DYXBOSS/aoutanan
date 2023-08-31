@@ -125,6 +125,9 @@ a {
     
             background-color: rgba(100, 100, 100, 0);
         }
+        .qr nav ul li a:hover{
+            color: white;
+        }
         #ches {
             display: none;
         }

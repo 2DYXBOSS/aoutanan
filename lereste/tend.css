@@ -32,6 +32,9 @@ li {
 .qr nav ul li a{
     color: black;
 }
+.qr nav ul li a:hover{
+    color: white;
+}
 #ches {
     display: none;
 }

@@ -119,6 +119,9 @@ a {
     .qr nav ul li a{
         color: black;
     }
+    .qr nav ul li a:hover{
+        color: white;
+    }
     .qr nav ul li img{
         background-color: transparent;
     }
