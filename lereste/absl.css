@@ -114,10 +114,13 @@ a {
         color: white;
         margin-bottom: 15px;
         font-size: 1rem;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .qr nav ul li a{
-        color: white;
+        color: black;
+    }
+    .qr nav ul li img{
+        background-color: transparent;
     }
     #ches {
         display: none;
@@ -327,7 +330,7 @@ a {
    .qr {
     height: 200px;
     width: 150px;
-    background-color: rgba(71, 71, 71, 0.514);
+    background-color: rgba(124, 123, 123, 0.514);
     border-radius: 10px;
     position: fixed;
     right: 5%;
@@ -344,7 +347,10 @@ a {
         padding-left: 20px;
     }
     .qr nav ul li a{
-        color: white;
+        color: black;
+    }
+    .qr nav ul li img{
+        background-color: transparent;
     }
     #ches {
         display: none;
