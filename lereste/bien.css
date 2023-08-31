@@ -27,10 +27,10 @@ li {
     color: white;
     margin-bottom: 15px;
     font-size: 1rem;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .qr nav ul li a{
-    color: white;
+    color: black;
 }
 #ches {
     display: none;
@@ -533,10 +533,10 @@ li {
         color: white;
         margin-bottom: 15px;
         font-size: 1rem;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .qr nav ul li a{
-        color: white;
+        color: black;
     }
     #ches {
         display: none;
