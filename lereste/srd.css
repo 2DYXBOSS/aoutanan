@@ -10,7 +10,7 @@
       overflow: hidden;
       background-color: white;
   }
-  @media (min-width:10px) and (max-width:3000px){
+  @media (min-width:10px) and (max-width:2000px){
       
     a {
         text-decoration: none;
@@ -174,10 +174,266 @@
         font-size: 1rem;
         
     }
+
+
+
+    .bb {
+        animation: bbz 5s ease;
+    }
+    .ju {
+        animation: jus 11s ease;
+    }
+    
+    @keyframes jus {
+        0% {
+            opacity: 0;
+        }
+        80% {
+            opacity: 100%;
+        }
+    }
+    @keyframes bbz {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            transform: translateX(300px);
+            opacity: 0;
+            
+        }
+        
+        30% {
+            transform: translateX(0px);
+        }
+    }
+    .ll {
+        animation: llz 10s ease;
+    }
+    @keyframes llz {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            transform: translateX(300px);
+            opacity: 0;
+            
+        }
+        
+        30% {
+            transform: translateX(0px);
+        }
+    }
+    
+    .aa {
+        animation: aaz 15s ease;
+    }
+    
+    @keyframes aaz {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            transform: translateX(300px);
+            opacity: 0;
+            
+        }
+        
+        30% {
+            transform: translateX(0px);
+        }
+    }
+    
+    .yy {
+        animation: yyz 18s ease;
+    }
+    @keyframes yyz {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            transform: translateX(300px);
+            opacity: 0;
+            
+        }
+        
+        30% {
+            transform: translateX(0px);
+        }
+    }
+    
+    /* body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        
+    } */
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    main {
+        width: 100%;
+        height: 3000px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        animation: naqs 10s ease;
+        visibility: hidden;
+    }
+    @keyframes naqs {
+        10% {
+            visibility: visible;
+        }
+        
+    }
+    .frfz {
+        width: 100%;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 10px;
+    }
+    .ju {
+        height: 400px;
+        width: 500px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+    .a h1{
+        font-size: 6rem;
+        /* font-family:  Verdana, sans-serif; */
+        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        /* font-family: monospace; */
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 2px;
+    }
+    .a1 {
+        height: 10%;
+        width: 1%;
+        background-color: white;
+        margin-left: 2px;
+        border-radius: 1.5px;
+        animation: name1 2s infinite;
+        margin-top: 20px;
+        
+    }
+    @keyframes name1 {
+        10% {
+            transform: scale(1);
+            opacity: 100%;
+        }
+        80% {
+            transform: scale(1.2);
+            
+        }
+    }
+    .a2 {
+        height: 25%;
+        width: 1%;
+        background-color: white;
+        margin-left: 2px;
+        border-radius: 1.5px;
+        animation: name2 2s infinite;
+        margin-top: 20px;
+    }
+    @keyframes name2 {
+        10% {
+            transform: scale(1.2);
+        }
+        
+    }
+    .a7 {
+        margin-top: 20px;
+        height: 10%;
+        width: 1%;
+        background-color: white;
+        margin-left: 2.5px;
+        border-radius: 1.5px;
+        animation: name3 2s infinite;
+    }
+    @keyframes name3 {
+        10% {
+            transform: scale(1.2);
+        }
+        80% {
+            transform: scale(1);
+        }
+    }
+    .a4 {
+        margin-top: 20px;
+        height: 15%;
+        width: 1%;
+        background-color: white;
+        margin-left: 3px;
+        border-radius: 1.5px;
+        animation: name4 2s infinite;
+    }
+    @keyframes name4 {
+        10% {
+            transform: scale(1);
+        }
+        80% {
+            transform: scale(1.2);
+        }
+    }
+    .a5 {
+        margin-top: 20px;
+        height: 5%;
+        width: 1%;
+        background-color: white;
+        margin-left: 2px;
+        border-radius: 1.5px;
+        animation: name5 2s infinite;
+    }
+    @keyframes name5 {
+        10% {
+            transform: scale(0.5);
+        }
+        80% {
+            transform: scale(1.1);
+        }
+    }
+    .a6 {
+        margin-top: 20px;
+        height: 15%;
+        width: 1%;
+        background-color: white;
+        margin-left: 2px;
+        border-radius: 1.5px;
+        animation: name7 2s infinite;
+    }
+    @keyframes name7 {
+        10% {
+            transform: scale(1);
+        }
+        80% {
+            transform: scale(1.1);
+        }
+    }
     
 }
   
-  @media (min-width:3000px) {
+  @media (min-width:2000px) {
       
       
       
@@ -342,6 +598,256 @@
         font-weight: bolder;
         font-size: 1rem;
         
+    }
+
+
+    .bb {
+        animation: bbz 5s ease;
+    }
+    .ju {
+        animation: jus 11s ease;
+    }
+    
+    @keyframes jus {
+        0% {
+            opacity: 0;
+        }
+        80% {
+            opacity: 100%;
+        }
+    }
+    @keyframes bbz {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            transform: translateX(300px);
+            opacity: 0;
+            
+        }
+        
+        30% {
+            transform: translateX(0px);
+        }
+    }
+    .ll {
+        animation: llz 10s ease;
+    }
+    @keyframes llz {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            transform: translateX(300px);
+            opacity: 0;
+            
+        }
+        
+        30% {
+            transform: translateX(0px);
+        }
+    }
+    
+    .aa {
+        animation: aaz 15s ease;
+    }
+    
+    @keyframes aaz {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            transform: translateX(300px);
+            opacity: 0;
+            
+        }
+        
+        30% {
+            transform: translateX(0px);
+        }
+    }
+    
+    .yy {
+        animation: yyz 18s ease;
+    }
+    @keyframes yyz {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            transform: translateX(300px);
+            opacity: 0;
+            
+        }
+        
+        30% {
+            transform: translateX(0px);
+        }
+    }
+    
+    /* body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        
+    } */
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    main {
+        width: 100%;
+        height: 5000px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        visibility: hidden;
+        animation: namlsde 10s ease;
+    }
+    @keyframes namlsde {
+        10% {
+            visibility: visible;
+        }
+    }
+    .frfz {
+        width: 100%;
+        background-color: black;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 10px;
+    }
+    .ju {
+        height: 1000px;
+        width: 1200px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+    .a h1{
+        font-size: 15rem;
+        /* font-family:  Verdana, sans-serif; */
+        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        /* font-family: monospace; */
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 2px;
+    }
+    .a1 {
+        height: 10%;
+        width: 1%;
+        background-color: white;
+        margin-left: 2px;
+        border-radius: 1.5px;
+        animation: name1 2s infinite;
+        margin-top: 20px;
+    }
+    @keyframes name1 {
+        10% {
+            transform: scale(1);
+        }
+        80% {
+            transform: scale(1.2);
+        }
+    }
+    .a2 {
+        height: 25%;
+        width: 1%;
+        background-color: white;
+        margin-left: 2px;
+        border-radius: 1.5px;
+        animation: name2 2s infinite;
+        margin-top: 20px;
+    }
+    @keyframes name2 {
+        10% {
+            transform: scale(1.2);
+        }
+        
+    }
+    .a7 {
+        margin-top: 20px;
+        height: 10%;
+        width: 1%;
+        background-color: white;
+        margin-left: 2.5px;
+        border-radius: 1.5px;
+        animation: name3 2s infinite;
+    }
+    @keyframes name3 {
+        10% {
+            transform: scale(1.2);
+        }
+        80% {
+            transform: scale(1);
+        }
+    }
+    .a4 {
+        margin-top: 20px;
+        height: 15%;
+        width: 1%;
+        background-color: white;
+        margin-left: 3px;
+        border-radius: 1.5px;
+        animation: name4 2s infinite;
+    }
+    @keyframes name4 {
+        10% {
+            transform: scale(1);
+        }
+        80% {
+            transform: scale(1.2);
+        }
+    }
+    .a5 {
+        margin-top: 20px;
+        height: 5%;
+        width: 1%;
+        background-color: white;
+        margin-left: 2px;
+        animation: name5 2s infinite;
+    }
+    @keyframes name5 {
+        10% {
+            transform: scale(0.5);
+        }
+        80% {
+            transform: scale(1.1);
+        }
+    }
+    .a6 {
+        margin-top: 20px;
+        height: 15%;
+        width: 1%;
+        background-color: white;
+        margin-left: 2px;
+        border-radius: 1.5px;
+        animation: name7 2s infinite;
+    }
+    @keyframes name7 {
+        10% {
+            transform: scale(1);
+        }
+        80% {
+            transform: scale(1.1);
+        }
     }
       
   }
