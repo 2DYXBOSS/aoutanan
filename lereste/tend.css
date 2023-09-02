@@ -13,8 +13,8 @@ li {
 .qr {
     height: 200px;
     width: 150px;
-    background-color: rgba(153, 153, 153, 0.678);
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 7px;
     position: fixed;
     right: 20px;
     top: 70px;
@@ -33,7 +33,9 @@ li {
     color: black;
 }
 .qr nav ul li a:hover{
-    color: white;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
 }
 #ches {
     display: none;
@@ -46,7 +48,7 @@ li {
 .qr1 img{
     height: 20px;
     width: 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     filter: invert();
 }
 #ches:checked ~ .qr {
@@ -559,7 +561,7 @@ li {
     .qr {
         height: 200px;
         width: 150px;
-        background-color: rgba(223, 219, 219, 0.377);
+        background-color: rgb(255, 255, 255);
         border-radius: 10px;
         position: fixed;
         right: 20px;

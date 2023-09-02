@@ -13,10 +13,10 @@ li {
 .qr {
     height: 200px;
     width: 150px;
-    background-color: rgba(131, 128, 128, 0.514);
+    background-color: white;
     border-radius: 10px;
     position: fixed;
-    right: 20px;
+    right: 7%;
     top: 70px;
     visibility: hidden;
     opacity: 1;
@@ -33,7 +33,9 @@ li {
     color: black;
 }
 .qr nav ul li a:hover{
-    color: white;
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
 }
 #ches {
     display: none;
@@ -522,7 +524,7 @@ li {
     .qr {
         height: 200px;
         width: 150px;
-        background-color: rgba(131, 128, 128, 0.514);
+        background-color: white;
         border-radius: 10px;
         position: fixed;
         right: 20px;
@@ -542,7 +544,9 @@ li {
         color: black;
     }
     .qr nav ul li a:hover{
-        color: white;
+        color: black;
+        font-weight: bolder;
+        font-style: italic;
     }
     #ches {
         display: none;

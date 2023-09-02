@@ -11,6 +11,11 @@ li {
 a {
     text-decoration: none;
 }
+.qr nav ul li a:hover{
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+}
 
 @media (max-width :1000px) {
     body {
@@ -100,7 +105,7 @@ a {
    .qr {
     height: 200px;
     width: 150px;
-    background-color: rgba(100, 100, 100, 0.678);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     position: fixed;
     right: 20px;
@@ -118,6 +123,11 @@ a {
     }
     .qr nav ul li a{
         color: black;
+    }
+    .qr nav ul li a:hover{
+        color: black;
+        font-style: italic;
+        font-weight: bolder;
     }
     .qr nav ul li img{
         background-color: transparent;
@@ -330,10 +340,10 @@ a {
    .qr {
     height: 200px;
     width: 150px;
-    background-color: rgba(124, 123, 123, 0.514);
+    background-color: white;
     border-radius: 10px;
     position: fixed;
-    right: 5%;
+    right: 9%;
     top: 120px;
     visibility: hidden;
     opacity: 1;
@@ -344,13 +354,15 @@ a {
         color: white;
         margin-bottom: 15px;
         font-size: 1rem;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .qr nav ul li a{
         color: black;
     }
     .qr nav ul li a:hover{
-        color: white;
+        color: black;
+        font-style: italic;
+        font-weight: bolder;
     }
     .qr nav ul li img{
         background-color: transparent;

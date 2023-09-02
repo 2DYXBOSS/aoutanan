@@ -100,7 +100,7 @@ a {
    .qr {
     height: 200px;
     width: 150px;
-    background-color: rgba(100, 100, 100, 0.678);
+    background-color: white;
     border-radius: 10px;
     position: fixed;
     right: 20px;
@@ -120,7 +120,9 @@ a {
         color: black;
     }
     .qr nav ul li a:hover{
-        color: white;
+        color: black;
+        font-weight: bolder;
+        font-style: italic;
     }
     .qr nav ul li img{
         background-color: transparent;
@@ -333,7 +335,7 @@ a {
    .qr {
     height: 200px;
     width: 150px;
-    background-color: rgba(124, 123, 123, 0.514);
+    background-color: white;
     border-radius: 10px;
     position: fixed;
     right: 5%;
@@ -351,6 +353,11 @@ a {
     }
     .qr nav ul li a{
         color: black;
+    }
+    .qr nav ul li a:hover{
+        color: black;
+        font-weight: bolder;
+        font-style: italic;
     }
     .qr nav ul li img{
         background-color: transparent;
