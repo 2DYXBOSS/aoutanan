@@ -5,850 +5,394 @@
     
     font-family: 'Poppins', sans-serif;
   }
+  a {
+    text-decoration: none;
+    color: white;
+  }
   body {
       width: 100%;
-      overflow: hidden;
-      background-color: white;
+      background-color: black;
   }
   @media (min-width:10px) and (max-width:2000px){
-      
-    a {
-        text-decoration: none;
-        color: white;
-    }
-      
-    header {
+    body {
         width: 100%;
-        height: 2000px;
-        background-color: white;
+        height: 1200px;
+        
+        background-color: black;
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow-x: hidden;
     }
-    .dex2 {
-        width: 100%;
-        background-color: white;
+    
+    header{
+        display: none;
+      }
+    main{
+        display: block;
+        background-color: black;
+        width: 98%;
         height: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 10px;
 
     }
-    .mp {
-        height: 450px;
-        width: 340px;
+    .logo {
+        width: 100%;
+        height: 100px;
         background-color: black;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding: 20px;
-    }
-    .hea {
-        height: 7%;
-        width: 25%;
-        background: url(../image/BLA.jpg) 50% no-repeat;
         display: flex;
-        justify-content: center;
         align-items: center;
-        background-size: 100px;
+        justify-content: center;
+    }
+    .imlog {
+        height: 100%;
+        width: 200px;
+        background: url(../image/BLA.jpg) 50% no-repeat;
+        background-size: 250px;
         filter: invert();
     }
-    .hea2 {
+    .logo2 {
+        width: 100%;
+        height: 70px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo2 input{
+        height: 25px;
+        width: 70%;
+        border-radius: 40px;
+        padding-left: 40px;
+        background-color: rgba(128, 128, 128, 0.534);
+        color: white;
+        border: none;
+    }
+    
+    .prof {
+        height: 900px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .teab {
+        height: 98%;
+        width: 95%;
+        background-color: black;
+
+    }
+    .texts {
         height: 50px;
         width: 100%;
         background-color: black;
-        color: white;
         display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-    .hea2 h2{
-        color: white;
-        font-size: 0.7rem;
-        font-weight: bold;
-    }
-    .hea3 {
-        margin-top: 20px;
-        height: 10px;
-        width: 100%;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        background-color: black;
-    }
-
-    .hea3 p {
-        margin-bottom: 15px;
-        font-size: 0.8rem;
-        color: white;
-        font-weight: bold;
-        padding-right: 20px;
-    }
-    .hea4 {
-        height: 30px;
-        width: 100%;
-        background-color: black;
-        display: flex;
-        justify-content: end;
-        padding-right: 20px;
-        
-    }
-    .hea4 input {
-        border-radius: 10px;
-        border: 1px solid white;
-        background-color: rgba(49, 48, 48, 0.199);
-        width: 90%;
-        color: white;
-        padding-left: 10px;
-    }
-    .hea5 {
-        margin-top: 20px;
-        height: 10px;
-        width: 100%;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        background-color: black;
-        color: white;
-    }
-    .hea5 p {
-        font-size: 0.7rem;
-        padding-right: 30px;
-    }
-    .hea5 p:hover{
-        font-size: 0.7rem;
-        padding-right: 20px;
-        color: blue;
-        
-    }
-    .hea6{
-        margin-top: 20px;
-        height: 30px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: end;
-        background-color: black;
-        color: white;
-        
-    }
-    .hea6 h1 {
-        font-size: 1rem;
-        padding-bottom: 10px;
-        
-    }
-
-    .hea7{
-        height: 50px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-        color: white;
-    }
-    .hea7 li {
-        font-size: 0.8rem;
-        list-style-type: none;
-        
-    }
-    .hea7 li a{
-        padding: 10px;
-        background-color: transparent;
-        border: 2px solid white;
-        border-radius: 20px;
-        
-    }
-    .hea7 li a:hover{
-        padding: 10px;
-        background-color: rgba(102, 100, 100, 0.075);
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 20px;
+        align-items: flex-start;
+        font-size: 1.2rem;
         color: white;
         font-weight: bolder;
+        align-items: center;
+        padding-left: 20px;
+        
+    }
+    .losq {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(114, 43, 43);
+    }
+    .text2 {
+        height: 150px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: flex-start;
         font-size: 1rem;
-        
-    }
-
-
-
-    .bb {
-        animation: bbz 5s ease;
-    }
-    .ju {
-        animation: jus 11s ease;
-    }
-    
-    @keyframes jus {
-        0% {
-            opacity: 0;
-        }
-        80% {
-            opacity: 100%;
-        }
-    }
-    @keyframes bbz {
-        0% {
-            opacity: 0;
-        }
-        10% {
-            transform: translateX(300px);
-            opacity: 0;
-            
-        }
-        
-        30% {
-            transform: translateX(0px);
-        }
-    }
-    .ll {
-        animation: llz 10s ease;
-    }
-    @keyframes llz {
-        0% {
-            opacity: 0;
-        }
-        10% {
-            transform: translateX(300px);
-            opacity: 0;
-            
-        }
-        
-        30% {
-            transform: translateX(0px);
-        }
-    }
-    
-    .aa {
-        animation: aaz 15s ease;
-    }
-    
-    @keyframes aaz {
-        0% {
-            opacity: 0;
-        }
-        10% {
-            transform: translateX(300px);
-            opacity: 0;
-            
-        }
-        
-        30% {
-            transform: translateX(0px);
-        }
-    }
-    
-    .yy {
-        animation: yyz 18s ease;
-    }
-    @keyframes yyz {
-        0% {
-            opacity: 0;
-        }
-        10% {
-            transform: translateX(300px);
-            opacity: 0;
-            
-        }
-        
-        30% {
-            transform: translateX(0px);
-        }
-    }
-    
-    /* body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        overflow: hidden;
-        
-    } */
-    a {
-        text-decoration: none;
         color: white;
-    }
-    main {
-        width: 100%;
-        height: 3000px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        animation: naqs 10s ease;
-        visibility: hidden;
-    }
-    @keyframes naqs {
-        10% {
-            visibility: visible;
-        }
+        font-weight: bolder;
         
     }
-    .frfz {
-        width: 100%;
-        background-color: black;
+    .los1 {
         height: 100%;
+        width: 40%;
+        background-color: rgba(58, 58, 58, 0.26);
         display: flex;
         justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 10px;
+        padding-top: 20px;
+        border-radius: 30px 0px 0px 30px;
+        border: 2px solid white;
+        
+
     }
-    .ju {
-        height: 400px;
-        width: 500px;
+    .sl {
+        height: 100px;
+        width: 100px;
+        background: url(../image/mol.jpg) 50% no-repeat;
+        background-size: cover;
+        border-radius: 100%;
+
+
+    }
+    .los2 {
+        height: 100%;
+        width:60%;
+        background-color: black;
+        padding: 20px;
+        
+    }
+    .testes {
+        height: 600px;
+        width: 100%;
+        background-color: black;
+    }
+    
+    .sosq {
+        margin-bottom: 10px;
+        height: 70px;
+        width: 100%;
         background-color: black;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
     }
-    
-    .a {
+    .pos1 {
+        height: 70px;
+        width: 20%;
+        background-color: black;
+        
         display: flex;
-        justify-content: center;
         align-items: center;
-        text-align: start;
+        justify-content: center;
     }
-    .a h1{
-        font-size: 6rem;
-        /* font-family:  Verdana, sans-serif; */
-        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-        /* font-family: monospace; */
-        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin-top: 2px;
+    .pqsez {
+        height: 40px;
+        width: 40px;
+        background: url(../image/mol.jpg) 50% no-repeat;
+        background-size: cover;
+        border-radius: 100%;
     }
-    .a1 {
-        height: 10%;
-        width: 1%;
-        background-color: white;
-        margin-left: 2px;
-        border-radius: 1.5px;
-        animation: name1 2s infinite;
-        margin-top: 20px;
-        
+    .pos2 {
+        height: 70px;
+        width: 75%;
+        background-color: rgba(34, 33, 33, 0.308);
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
     }
-    @keyframes name1 {
-        10% {
-            transform: scale(1);
-            opacity: 100%;
-        }
-        80% {
-            transform: scale(1.2);
-            
-        }
+    .logon {
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    .a2 {
-        height: 25%;
-        width: 1%;
-        background-color: white;
-        margin-left: 2px;
-        border-radius: 1.5px;
-        animation: name2 2s infinite;
-        margin-top: 20px;
+    .logon img{
+        padding-right: 20px;
+        filter: invert();
     }
-    @keyframes name2 {
-        10% {
-            transform: scale(1.2);
-        }
-        
+    .logon2 {
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    .a7 {
-        margin-top: 20px;
-        height: 10%;
-        width: 1%;
-        background-color: white;
-        margin-left: 2.5px;
-        border-radius: 1.5px;
-        animation: name3 2s infinite;
+    .logon2 img{
+        padding-right: 20px;
+        filter: invert();
     }
-    @keyframes name3 {
-        10% {
-            transform: scale(1.2);
-        }
-        80% {
-            transform: scale(1);
-        }
-    }
-    .a4 {
-        margin-top: 20px;
-        height: 15%;
-        width: 1%;
-        background-color: white;
-        margin-left: 3px;
-        border-radius: 1.5px;
-        animation: name4 2s infinite;
-    }
-    @keyframes name4 {
-        10% {
-            transform: scale(1);
-        }
-        80% {
-            transform: scale(1.2);
-        }
-    }
-    .a5 {
-        margin-top: 20px;
-        height: 5%;
-        width: 1%;
-        background-color: white;
-        margin-left: 2px;
-        border-radius: 1.5px;
-        animation: name5 2s infinite;
-    }
-    @keyframes name5 {
-        10% {
-            transform: scale(0.5);
-        }
-        80% {
-            transform: scale(1.1);
-        }
-    }
-    .a6 {
-        margin-top: 20px;
-        height: 15%;
-        width: 1%;
-        background-color: white;
-        margin-left: 2px;
-        border-radius: 1.5px;
-        animation: name7 2s infinite;
-    }
-    @keyframes name7 {
-        10% {
-            transform: scale(1);
-        }
-        80% {
-            transform: scale(1.1);
-        }
-    }
-    
 }
   
-  @media (min-width:2000px) {
-      
-      
-      
-    a {
-        text-decoration: none;
-        color: white;
-    }
-      
-    header {
+@media (min-width:2000px){
+    body {
         width: 100%;
-        height: 4000px;
-        background-color: white;
+        height: 1200px;
+        
+        background-color: black;
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow-x: hidden;
     }
-    .dex2 {
-        width: 100%;
-        background-color: white;
+    
+    header{
+        display: none;
+      }
+    main{
+        display: block;
+        background-color: black;
+        width: 98%;
         height: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 10px;
 
     }
-    .mp {
-        height: 800px;
-        width: 550px;
+    .logo {
+        width: 100%;
+        height: 100px;
         background-color: black;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding: 20px;
-    }
-    .hea {
-        height: 15%;
-        width: 40%;
-        background: url(../image/BLA.jpg) 50% no-repeat;
         display: flex;
-        justify-content: center;
         align-items: center;
-        background-size: 200px;
+        justify-content: center;
+    }
+    .imlog {
+        height: 100%;
+        width: 200px;
+        background: url(../image/BLA.jpg) 50% no-repeat;
+        background-size: 250px;
         filter: invert();
     }
-    .hea2 {
-        height: 100px;
+    .logo2 {
         width: 100%;
+        height: 70px;
         background-color: black;
-        color: white;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
-    .hea2 p{
-        color: white;
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    .hea3 {
-        margin-top: 20px;
-        height: 40px;
-        width: 100%;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        background-color: rgb(0, 0, 0);
-    }
-
-    .hea3 p {
-        margin-bottom: 15px;
-        font-size: 0.8rem;
-        color: white;
-        font-weight: bold;
-        padding-right: 35px;
-    }
-    .hea4 {
-        height: 30px;
-        width: 100%;
-        background-color: black;
-        display: flex;
-        justify-content: end;
-        padding-right: 20px;
-        
-    }
-    .hea4 input {
+    .logo2 input{
+        height: 25px;
+        width: 70%;
         border-radius: 40px;
-        border: 1px solid white;
-        background-color: rgba(49, 48, 48, 0.199);
-        width: 90%;
-        height: 40px;
+        padding-left: 40px;
+        background-color: rgba(128, 128, 128, 0.534);
         color: white;
-        padding-left: 10px;
+        border: none;
     }
-    .hea5 {
-        margin-top: 20px;
-        height: 10px;
+    
+    .prof {
+        height: 900px;
         width: 100%;
-        display: flex;
-        justify-content: end;
-        align-items: center;
         background-color: black;
-        color: white;
-    }
-    .hea5 p {
-        font-size: 1rem;
-        padding-right: 40px;
-        margin-top: 20px;
-    }
-    .hea5 p:hover{
-        font-size: 0.7rem;
-        padding-right: 20px;
-        color: blue;
-        
-    }
-    .hea6{
-        margin-top: 20px;
-        height: 100px;
-        width: 100%;
         display: flex;
         justify-content: center;
-        align-items: end;
-        background-color: black;
-        color: white;
-    }
-    .hea6 h1 {
-        font-size: 1.5rem;
-        padding-bottom: 30px;
-    }
+        align-items: center;
 
-    .hea7{
+    }
+    .teab {
+        height: 98%;
+        width: 95%;
+        background-color: black;
+
+    }
+    .texts {
         height: 50px;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         background-color: black;
-        color: white;
-    }
-    .hea7 li {
+        display: flex;
+        align-items: flex-start;
         font-size: 1.2rem;
-        list-style-type: none;
-        
-    }
-    .hea7 li a{
-        padding: 20px;
-        background-color: transparent;
-        border: 2px solid white;
-        border-radius: 60px;
-        
-    }
-    .hea7 li a:hover{
-        padding: 10px;
-        background-color: rgba(102, 100, 100, 0.075);
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 20px;
         color: white;
         font-weight: bolder;
+        align-items: center;
+        padding-left: 20px;
+        
+    }
+    .losq {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(114, 43, 43);
+    }
+    .text2 {
+        height: 150px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: flex-start;
         font-size: 1rem;
-        
-    }
-
-
-    .bb {
-        animation: bbz 5s ease;
-    }
-    .ju {
-        animation: jus 11s ease;
-    }
-    
-    @keyframes jus {
-        0% {
-            opacity: 0;
-        }
-        80% {
-            opacity: 100%;
-        }
-    }
-    @keyframes bbz {
-        0% {
-            opacity: 0;
-        }
-        10% {
-            transform: translateX(300px);
-            opacity: 0;
-            
-        }
-        
-        30% {
-            transform: translateX(0px);
-        }
-    }
-    .ll {
-        animation: llz 10s ease;
-    }
-    @keyframes llz {
-        0% {
-            opacity: 0;
-        }
-        10% {
-            transform: translateX(300px);
-            opacity: 0;
-            
-        }
-        
-        30% {
-            transform: translateX(0px);
-        }
-    }
-    
-    .aa {
-        animation: aaz 15s ease;
-    }
-    
-    @keyframes aaz {
-        0% {
-            opacity: 0;
-        }
-        10% {
-            transform: translateX(300px);
-            opacity: 0;
-            
-        }
-        
-        30% {
-            transform: translateX(0px);
-        }
-    }
-    
-    .yy {
-        animation: yyz 18s ease;
-    }
-    @keyframes yyz {
-        0% {
-            opacity: 0;
-        }
-        10% {
-            transform: translateX(300px);
-            opacity: 0;
-            
-        }
-        
-        30% {
-            transform: translateX(0px);
-        }
-    }
-    
-    /* body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        overflow: hidden;
-        
-    } */
-    a {
-        text-decoration: none;
         color: white;
+        font-weight: bolder;
+        
     }
-    main {
-        width: 100%;
-        height: 5000px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        visibility: hidden;
-        animation: namlsde 10s ease;
-    }
-    @keyframes namlsde {
-        10% {
-            visibility: visible;
-        }
-    }
-    .frfz {
-        width: 100%;
-        background-color: black;
+    .los1 {
         height: 100%;
+        width: 40%;
+        background-color: rgba(58, 58, 58, 0.26);
         display: flex;
         justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 10px;
+        padding-top: 20px;
+        border-radius: 30px 0px 0px 30px;
+        border: 2px solid white;
+        
+
     }
-    .ju {
-        height: 1000px;
-        width: 1200px;
+    .sl {
+        height: 100px;
+        width: 100px;
+        background: url(../image/mol.jpg) 50% no-repeat;
+        background-size: cover;
+        border-radius: 100%;
+
+
+    }
+    .los2 {
+        height: 100%;
+        width:60%;
         background-color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         padding: 20px;
-    }
-    
-    .a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: start;
-    }
-    .a h1{
-        font-size: 15rem;
-        /* font-family:  Verdana, sans-serif; */
-        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-        /* font-family: monospace; */
-        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin-top: 2px;
-    }
-    .a1 {
-        height: 10%;
-        width: 1%;
-        background-color: white;
-        margin-left: 2px;
-        border-radius: 1.5px;
-        animation: name1 2s infinite;
-        margin-top: 20px;
-    }
-    @keyframes name1 {
-        10% {
-            transform: scale(1);
-        }
-        80% {
-            transform: scale(1.2);
-        }
-    }
-    .a2 {
-        height: 25%;
-        width: 1%;
-        background-color: white;
-        margin-left: 2px;
-        border-radius: 1.5px;
-        animation: name2 2s infinite;
-        margin-top: 20px;
-    }
-    @keyframes name2 {
-        10% {
-            transform: scale(1.2);
-        }
         
     }
-    .a7 {
-        margin-top: 20px;
-        height: 10%;
-        width: 1%;
-        background-color: white;
-        margin-left: 2.5px;
-        border-radius: 1.5px;
-        animation: name3 2s infinite;
+    .testes {
+        height: 600px;
+        width: 100%;
+        background-color: black;
     }
-    @keyframes name3 {
-        10% {
-            transform: scale(1.2);
-        }
-        80% {
-            transform: scale(1);
-        }
+    
+    .sosq {
+        margin-bottom: 10px;
+        height: 70px;
+        width: 100%;
+        background-color: black;
+        display: flex;
     }
-    .a4 {
-        margin-top: 20px;
-        height: 15%;
-        width: 1%;
-        background-color: white;
-        margin-left: 3px;
-        border-radius: 1.5px;
-        animation: name4 2s infinite;
+    .pos1 {
+        height: 70px;
+        width: 20%;
+        background-color: black;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    @keyframes name4 {
-        10% {
-            transform: scale(1);
-        }
-        80% {
-            transform: scale(1.2);
-        }
+    .pqsez {
+        height: 40px;
+        width: 40px;
+        background: url(../image/mol.jpg) 50% no-repeat;
+        background-size: cover;
+        border-radius: 100%;
     }
-    .a5 {
-        margin-top: 20px;
-        height: 5%;
-        width: 1%;
-        background-color: white;
-        margin-left: 2px;
-        animation: name5 2s infinite;
+    .pos2 {
+        height: 70px;
+        width: 75%;
+        background-color: rgba(34, 33, 33, 0.308);
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
     }
-    @keyframes name5 {
-        10% {
-            transform: scale(0.5);
-        }
-        80% {
-            transform: scale(1.1);
-        }
+    .logon {
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    .a6 {
-        margin-top: 20px;
-        height: 15%;
-        width: 1%;
-        background-color: white;
-        margin-left: 2px;
-        border-radius: 1.5px;
-        animation: name7 2s infinite;
+    .logon img{
+        padding-right: 20px;
+        filter: invert();
     }
-    @keyframes name7 {
-        10% {
-            transform: scale(1);
-        }
-        80% {
-            transform: scale(1.1);
-        }
+    .logon2 {
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-      
-  }
-  
+    .logon2 img{
+        padding-right: 20px;
+        filter: invert();
+    }
+}
